@@ -1,0 +1,204 @@
+.typea-head {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: revert !important;
+}
+
+.card-header {
+    position: relative;
+    background-color: white !important;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px !important;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #555;
+}
+
+.typea-head {
+    background-color: crimson;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.indication-text {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.indication-text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: #7fc253 !important;
+}
+
+.with-icon::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: #4DD0A1;
+}
+
+.indication-text1 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.indication-text1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+}
+
+.with-icon1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+}
+
+.card {
+    background-color: white !important;
+}
+
+.para-text {
+    margin-top: 2rem;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.readings {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.reading-p1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-family: 'Poppins', sans-serif;
+    margin-top: revert-layer;
+
+}
+
+.box-1 {
+    background-color: crimson;
+    border-bottom-left-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+}
+
+.box-2 {
+    background-color: #7fc253;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-3 {
+    background-color: lightgray;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reading-p2 {
+    margin-top: revert-layer;
+}
+
+.reading-p3 {
+    margin-top: revert-layer;
+}
+
+.precautions {
+    display: inline-block;
+    background-color: crimson;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-size: 15px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.precautions-list{
+    width: 80% !important;
+}
+@media screen and (max-width: 767px) {
+
+    .indication-text,
+    .indication-text1 {
+        font-size: 5px;
+    }
+
+    .with-icon1::before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .with-icon::before {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+
+    .indication-text,
+    .indication-text1 {
+        font-size: 13px;
+        /* Adjust the font size as needed for tablet devices */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .precautions {
+        width: 90%;
+        margin-right: 4rem;
+
+    }
+}

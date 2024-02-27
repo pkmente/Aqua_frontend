@@ -1,0 +1,12 @@
+.main-head {
+    background-color: #2f374e;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-para {
+    margin-top: revert !important;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
