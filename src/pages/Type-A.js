@@ -12,7 +12,7 @@ const TypeA = ({ onClose }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("http://localhost:1111/api/sensordata");
+                const response = await fetch("https://aqua-liart-eight.vercel.app/");
                 const data = await response.json();
                 setTypea(data.typea);
             } catch (error) {
