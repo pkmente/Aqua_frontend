@@ -19,7 +19,7 @@ const TypeB = ({ onClose }) => {
                 console.error(error);
             }
         };
-        const intervalId = setInterval(fetchData, 2000);
+        const intervalId = setInterval(fetchData, 500);
         return () => clearInterval(intervalId);
     }, []);
     return (
