@@ -12,7 +12,7 @@ const TypeE = ({ onClose }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("https://aqua-liart-eight.vercel.app/api/sensordata");
+                const response = await fetch("https://aqua-5mwm.onrender.com/api/sensordata");
                 const data = await response.json();
                 setTypee(data.typee);
             } catch (error) {
